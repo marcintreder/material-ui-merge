@@ -1,0 +1,244 @@
+{
+  "categorizedComponents": [
+    {
+      "components": [
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/Button",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/Button/Button.js"
+            },
+            "presets": [
+              {
+                "path": "src/Button/presets/0-default.jsx"
+              }
+            ]
+          },
+          "name": "Button",
+          "presets": [
+            {
+              "elements": {
+                "action0": {
+                  "name": "Button",
+                  "props": {
+                    "children": "Primary",
+                    "color": "primary",
+                    "variant": "contained"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "action0"
+            }
+          ],
+          "properties": [
+            {
+              "description": "The content of the button.",
+              "isRequired": true,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Override or extend the styles applied to the component.\nSee [CSS API](#css-api) below for more details.",
+              "isRequired": true,
+              "name": "classes",
+              "type": {
+                "name": "object",
+                "structure": {}
+              }
+            },
+            {
+              "description": "@ignore",
+              "isRequired": false,
+              "name": "className",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "default"
+              },
+              "description": "The color of the component. It supports those theme colors that make sense for this component.",
+              "isRequired": false,
+              "name": "color",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "default"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "inherit"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "primary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "secondary"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "button"
+              },
+              "description": "The component used for the root node.\nEither a string to use a DOM element or a component.",
+              "isRequired": false,
+              "name": "component",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "If `true`, the button will be disabled.",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "If `true`, the  keyboard focus ripple will be disabled.\n`disableRipple` must also be true.",
+              "isRequired": false,
+              "name": "disableFocusRipple",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "If `true`, the ripple effect will be disabled.",
+              "isRequired": false,
+              "name": "disableRipple",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "@ignore",
+              "isRequired": false,
+              "name": "focusVisibleClassName",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "If `true`, the button will take up the full width of its container.",
+              "isRequired": false,
+              "name": "fullWidth",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "The URL to link to when the button is clicked.\nIf defined, an `a` element will be used as the root node.",
+              "isRequired": false,
+              "name": "href",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "If `true`, and `variant` is `'fab'`, will use mini floating action button styling.",
+              "isRequired": false,
+              "name": "mini",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "medium"
+              },
+              "description": "The size of the button.\n`small` is equivalent to the dense button styling.",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "medium"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "button"
+              },
+              "isRequired": false,
+              "name": "type"
+            }
+          ]
+        }
+      ],
+      "name": "General"
+    }
+  ],
+  "name": "Material UI Udemy",
+  "vcs": {
+    "branchName": "master",
+    "commitHash": "fff4e1b9229041d674ab38b69d53851b058950f9"
+  }
+}
